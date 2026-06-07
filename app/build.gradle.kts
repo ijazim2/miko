@@ -1,3 +1,5 @@
+import java.util.Properties
+
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.plugin.compose")
@@ -6,6 +8,14 @@ plugins {
     id("com.google.gms.google-services")
     id("com.google.dagger.hilt.android")
 }
+
+val localProperties = Properties()
+val localPropertiesFile = rootProject.file("local.properties")
+
+if (localPropertiesFile.exists()) {
+    localProperties.load(localPropertiesFile.inputStream())
+}
+
 
 android {
     namespace = "com.kittys.premium"
@@ -26,8 +36,23 @@ android {
 
     buildTypes {
         debug {
-            buildConfigField("String", "SUPABASE_URL", "\"https://vziwpuxflnhxmwhgtuwg.supabase.co\"")
-            buildConfigField("String", "SUPABASE_ANON_KEY", "\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZ6aXdwdXhmbG5oeG13aGd0dXdnIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODAwNzk2NTYsImV4cCI6MjA5NTY1NTY1Nn0.cnpfQxLu-HdEXqLIQgZcfcsiKHR680Zyr6hFmhxV7z8\"")
+            buildConfigField(
+                "String",
+                "SUPABASE_URL",
+                "\"${localProperties.getProperty("SUPABASE_URL")}\""
+            )
+
+            buildConfigField(
+                "String",
+                "SUPABASE_ANON_KEY",
+                "\"${localProperties.getProperty("SUPABASE_ANON_KEY")}\""
+            )
+
+            buildConfigField(
+                "String",
+                "GEMINI_API_KEY",
+                "\"${localProperties.getProperty("GEMINI_API_KEY")}\""
+            )
         }
         release {
             isMinifyEnabled = false
@@ -35,8 +60,23 @@ android {
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"
             )
-            buildConfigField("String", "SUPABASE_URL", "\"https://vziwpuxflnhxmwhgtuwg.supabase.co\"")
-            buildConfigField("String", "SUPABASE_ANON_KEY", "\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZ6aXdwdXhmbG5oeG13aGd0dXdnIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODAwNzk2NTYsImV4cCI6MjA5NTY1NTY1Nn0.cnpfQxLu-HdEXqLIQgZcfcsiKHR680Zyr6hFmhxV7z8\"")
+            buildConfigField(
+                "String",
+                "SUPABASE_URL",
+                "\"${localProperties.getProperty("SUPABASE_URL")}\""
+            )
+
+            buildConfigField(
+                "String",
+                "SUPABASE_ANON_KEY",
+                "\"${localProperties.getProperty("SUPABASE_ANON_KEY")}\""
+            )
+
+            buildConfigField(
+                "String",
+                "GEMINI_API_KEY",
+                "\"${localProperties.getProperty("GEMINI_API_KEY")}\""
+            )
         }
     }
 
