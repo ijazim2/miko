@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ════════════════════════════════════════════════════
+     res/values/arrays.xml
+     Save as: app/src/main/res/values/arrays.xml
+     ════════════════════════════════════════════════════ -->
+<resources>
+
+    <!-- Kids clothing sizes -->
+    <string-array name="sizes_babies">
+        <item>0-3M</item>
+        <item>3-6M</item>
+        <item>6-9M</item>
+        <item>6-12M</item>
+        <item>9-12M</item>
+        <item>12-18M</item>
+        <item>18-24M</item>
+    </string-array>
+
+    <string-array name="sizes_toddlers">
+        <item>1Y</item>
+        <item>2Y</item>
+        <item>3Y</item>
+        <item>4Y</item>
+        <item>5Y</item>
+    </string-array>
+
+    <string-array name="sizes_kids">
+        <item>4Y</item>
+        <item>5Y</item>
+        <item>6Y</item>
+        <item>7Y</item>
+        <item>8Y</item>
+        <item>9Y</item>
+        <item>10Y</item>
+        <item>11Y</item>
+        <item>12Y</item>
+        <item>12Y+</item>
+    </string-array>
+
+    <string-array name="sizes_all">
+        <item>0-3M</item>
+        <item>3-6M</item>
+        <item>6-12M</item>
+        <item>1Y</item>
+        <item>2Y</item>
+        <item>3Y</item>
+        <item>4Y</item>
+        <item>5Y</item>
+        <item>6Y</item>
+        <item>7Y</item>
+        <item>8Y</item>
+        <item>9Y</item>
+        <item>10Y</item>
+        <item>11Y</item>
+        <item>12Y+</item>
+    </string-array>
+
+    <!-- Product categories -->
+    <string-array name="categories">
+        <item>All</item>
+        <item>Girls</item>
+        <item>Boys</item>
+        <item>Babies</item>
+        <item>Teens</item>
+        <item>School</item>
+        <item>Party</item>
+        <item>Sport</item>
+    </string-array>
+
+    <!-- Sri Lanka districts -->
+    <string-array name="districts">
+        <item>Colombo</item>
+        <item>Gampaha</item>
+        <item>Kalutara</item>
+        <item>Kandy</item>
+        <item>Matale</item>
+        <item>Nuwara Eliya</item>
+        <item>Galle</item>
+        <item>Matara</item>
+        <item>Hambantota</item>
+        <item>Jaffna</item>
+        <item>Kilinochchi</item>
+        <item>Mannar</item>
+        <item>Vavuniya</item>
+        <item>Mullaitivu</item>
+        <item>Batticaloa</item>
+        <item>Ampara</item>
+        <item>Trincomalee</item>
+        <item>Kurunegala</item>
+        <item>Puttalam</item>
+        <item>Anuradhapura</item>
+        <item>Polonnaruwa</item>
+        <item>Badulla</item>
+        <item>Moneragala</item>
+        <item>Ratnapura</item>
+        <item>Kegalle</item>
+    </string-array>
+
+    <!-- Payment methods -->
+    <string-array name="payment_methods">
+        <item>Credit / Debit Card</item>
+        <item>Cash on Delivery</item>
+        <item>eZ Cash</item>
+        <item>FriMi</item>
+    </string-array>
+
+    <!-- Sort options -->
+    <string-array name="sort_options">
+        <item>Relevance</item>
+        <item>Price: Low to High</item>
+        <item>Price: High to Low</item>
+        <item>Newest First</item>
+        <item>Top Rated</item>
+        <item>Most Popular</item>
+    </string-array>
+
+    <!-- Delivery types -->
+    <string-array name="delivery_types">
+        <item>Standard (3-5 days)</item>
+        <item>Express (Next day)</item>
+        <item>Same Day (Colombo only)</item>
+    </string-array>
+
+</resources>

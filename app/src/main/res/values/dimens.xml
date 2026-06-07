@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/values/dimens.xml -->
+<resources>
+    <!-- Corner radii -->
+    <dimen name="radius_xs">8dp</dimen>
+    <dimen name="radius_sm">12dp</dimen>
+    <dimen name="radius_md">16dp</dimen>
+    <dimen name="radius_lg">22dp</dimen>
+    <dimen name="radius_xl">28dp</dimen>
+    <dimen name="radius_xxl">32dp</dimen>
+    <dimen name="radius_pill">50dp</dimen>
+
+    <!-- Spacing -->
+    <dimen name="space_xxs">4dp</dimen>
+    <dimen name="space_xs">8dp</dimen>
+    <dimen name="space_sm">12dp</dimen>
+    <dimen name="space_md">16dp</dimen>
+    <dimen name="space_lg">20dp</dimen>
+    <dimen name="space_xl">24dp</dimen>
+    <dimen name="space_xxl">32dp</dimen>
+    <dimen name="space_page">48dp</dimen>
+
+    <!-- Neumorphic shadows -->
+    <dimen name="neu_shadow_sm">4dp</dimen>
+    <dimen name="neu_shadow_md">8dp</dimen>
+    <dimen name="neu_shadow_lg">14dp</dimen>
+
+    <!-- Page horizontal padding -->
+    <dimen name="page_horizontal_padding">20dp</dimen>
+
+    <!-- Typography (sp) -->
+    <dimen name="text_display">36sp</dimen>
+    <dimen name="text_h1">28sp</dimen>
+    <dimen name="text_h2">22sp</dimen>
+    <dimen name="text_h3">18sp</dimen>
+    <dimen name="text_title">17sp</dimen>
+    <dimen name="text_body_lg">15sp</dimen>
+    <dimen name="text_body">13sp</dimen>
+    <dimen name="text_caption">12sp</dimen>
+    <dimen name="text_label">10sp</dimen>
+
+    <!-- Components -->
+    <dimen name="button_height">54dp</dimen>
+    <dimen name="input_height">54dp</dimen>
+    <dimen name="bottom_nav_height">72dp</dimen>
+    <dimen name="top_bar_height">64dp</dimen>
+    <dimen name="product_card_width">168dp</dimen>
+    <dimen name="product_image_height">180dp</dimen>
+    <dimen name="banner_height">160dp</dimen>
+    <dimen name="avatar_sm">36dp</dimen>
+    <dimen name="avatar_md">44dp</dimen>
+    <dimen name="avatar_lg">88dp</dimen>
+    <dimen name="icon_sm">16dp</dimen>
+    <dimen name="icon_md">20dp</dimen>
+    <dimen name="icon_lg">24dp</dimen>
+    <dimen name="icon_xl">32dp</dimen>
+    <dimen name="chip_height">38dp</dimen>
+    <dimen name="fab_size">56dp</dimen>
+</resources>

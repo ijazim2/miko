@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ════════════════════════════════════════════════════
+     res/values-night/colors.xml
+     Dark mode neumorphic surface overrides
+     ════════════════════════════════════════════════════ -->
+<resources>
+    <!-- Dark neumorphic surfaces -->
+    <color name="neu_bg_dark">#1A1F2E</color>
+    <color name="neu_surface_dark">#232942</color>
+    <color name="neu_shadow_dark">#12172B</color>
+    <color name="neu_shadow_light">#2E3555</color>
+
+    <!-- Text stays readable on dark bg -->
+    <color name="text_primary">#E8EDF5</color>
+    <color name="text_secondary">#A0AABF</color>
+    <color name="text_muted">#6B7A9A</color>
+
+    <!-- Divider darker -->
+    <color name="divider">#2A3150</color>
+
+    <!-- Brand colors stay the same in dark mode -->
+    <color name="blue_primary">#4F6EF7</color>
+    <color name="blue_secondary">#2F80ED</color>
+    <color name="aqua_accent">#38BDF8</color>
+    <color name="sky_blue">#60A5FA</color>
+    <color name="violet">#7C5CFC</color>
+    <color name="success">#22C55E</color>
+    <color name="error">#EF4444</color>
+    <color name="warning">#F59E0B</color>
+    <color name="white">#FFFFFF</color>
+</resources>

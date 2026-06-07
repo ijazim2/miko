@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ════════════════════════════════════════════════════
+     res/values/attrs.xml
+     Custom attributes for neumorphic View components
+     (used if you ever build custom XML Views alongside Compose)
+     ════════════════════════════════════════════════════ -->
+<resources>
+
+    <!-- Neumorphic Card attributes -->
+    <declare-styleable name="NeuCardView">
+        <attr name="neu_cornerRadius"   format="dimension" />
+        <attr name="neu_shadowOffset"   format="dimension" />
+        <attr name="neu_surfaceColor"   format="color" />
+        <attr name="neu_shadowDark"     format="color" />
+        <attr name="neu_shadowLight"    format="color" />
+        <attr name="neu_style" format="enum">
+            <enum name="raised" value="0" />
+            <enum name="inset"  value="1" />
+            <enum name="flat"   value="2" />
+        </attr>
+    </declare-styleable>
+
+    <!-- Gradient Button attributes -->
+    <declare-styleable name="GradientButtonView">
+        <attr name="btn_startColor"   format="color" />
+        <attr name="btn_endColor"     format="color" />
+        <attr name="btn_angle"        format="float" />
+        <attr name="btn_cornerRadius" format="dimension" />
+        <attr name="btn_text"         format="string" />
+        <attr name="btn_textColor"    format="color" />
+        <attr name="btn_textSize"     format="dimension" />
+    </declare-styleable>
+
+    <!-- Progress bar gradient style -->
+    <declare-styleable name="GradientProgressBar">
+        <attr name="gpb_startColor"    format="color" />
+        <attr name="gpb_endColor"      format="color" />
+        <attr name="gpb_trackColor"    format="color" />
+        <attr name="gpb_cornerRadius"  format="dimension" />
+        <attr name="gpb_progress"      format="float" />
+    </declare-styleable>
+
+    <!-- Category Chip attributes -->
+    <declare-styleable name="CategoryChipView">
+        <attr name="chip_text"             format="string" />
+        <attr name="chip_selected"         format="boolean" />
+        <attr name="chip_selectedStart"    format="color" />
+        <attr name="chip_selectedEnd"      format="color" />
+        <attr name="chip_unselectedColor"  format="color" />
+    </declare-styleable>
+
+    <!-- Star Rating attributes -->
+    <declare-styleable name="StarRatingView">
+        <attr name="star_rating"       format="float" />
+        <attr name="star_maxRating"    format="integer" />
+        <attr name="star_starSize"     format="dimension" />
+        <attr name="star_filledColor"  format="color" />
+        <attr name="star_emptyColor"   format="color" />
+    </declare-styleable>
+
+</resources>

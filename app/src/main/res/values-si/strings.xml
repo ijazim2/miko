@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/values-si/strings.xml (Sinhala / සිංහල) -->
+<resources>
+
+    <string name="app_name">MIKO</string>
+    <string name="app_full_name">MIKO — උසස් ළමා ෆැෂන්</string>
+    <string name="app_description">ශ්‍රී ලංකාවේ උසස් ළමා ෆැෂන් වෙළඳපොළ</string>
+    <string name="app_tagline">Be Cute, Be You.</string>
+    <!-- Bottom Navigation -->
+    <string name="nav_home">මුල් පිටුව</string>
+    <string name="nav_wishlist">ප්‍රියතම</string>
+    <string name="nav_ai">AI</string>
+    <string name="nav_cart">කූඩය</string>
+    <string name="nav_profile">පැතිකඩ</string>
+    <string name="nav_categories">ප්‍රවර්ග</string>
+
+    <!-- Splash -->
+    <string name="splash_logo_description">MIKO ලාංඡනය</string>
+    <string name="splash_text_logo_description">MIKO වචන ලාංඡනය</string>
+
+    <!-- Onboarding -->
+    <string name="onboard_1_title">සොයා බලා සාප්පු කරන්න</string>
+    <string name="onboard_1_subtitle">ඔබේ පුංචි දරුවන්ට සැකසූ ලස්සන එකතු බලන්න</string>
+    <string name="onboard_2_title">AI ස්ටයිලිස්ට්</string>
+    <string name="onboard_2_subtitle">ඔබේ දරුවාගේ ප්‍රමාණය, විලාසය සහ ශ්‍රී ලංකාවේ කාලගුණය අපි දනිමු.</string>
+    <string name="onboard_3_title">වේගවත් සහ ආරක්ෂිත බෙදාහැරීම</string>
+    <string name="onboard_3_subtitle">දිවයින පුරා තත්‍ය කාලීන නිරීක්ෂණය සහිත බෙදාහැරීම.</string>
+
+    <!-- Auth — Login -->
+    <string name="auth_login_title">නැවත සාදරයෙන් පිළිගනිමු</string>
+    <string name="auth_login_subtitle">සාප්පු සවාරියට ඇතුල් වන්න</string>
+    <string name="auth_create_account">ගිණුම සාදන්න</string>
+    <string name="auth_new_to_miko">MIKO හි අලුත්ද?</string>
+    <string name="auth_already_have_account">දැනටමත් ගිණුමක් තිබේද?</string>
+    <string name="auth_continue_google">Google සමඟ ඉදිරියට</string>
+    <string name="auth_sign_in_google">Google සමඟ ඇතුල් වන්න</string>
+    <string name="auth_forgot_password">මුරපදය අමතකද?</string>
+    <string name="auth_forgot_title">මුරපදය අමතකද?</string>
+    <string name="auth_forgot_description">ඔබේ ලියාපදිංචි ඊමේල් ඇතුළු කරන්න, අපි යළි සැකසීමේ සබැඳියක් එවන්නෙමු.</string>
+    <string name="auth_remember_password">මතකද? ඇතුල් වන්න</string>
+    <string name="auth_terms_checkbox">මම නියම සහ රහස්‍යතා ප්‍රතිපත්තියට එකඟ වෙමි</string>
+
+    <!-- Form fields -->
+    <string name="field_full_name">සම්පූර්ණ නම</string>
+    <string name="field_email">ඊමේල් ලිපිනය</string>
+    <string name="field_email_or_phone">ඊමේල් හෝ දුරකථනය</string>
+    <string name="field_phone">දුරකථන අංකය</string>
+    <string name="field_password">මුරපදය</string>
+    <string name="field_confirm_password">මුරපදය තහවුරු කරන්න</string>
+
+    <!-- Password rules -->
+    <string name="pwd_rule_min">අවම අක්ෂර 8</string>
+    <string name="pwd_rule_upper">එක් ලොකු අකුරක්</string>
+    <string name="pwd_rule_lower">එක් කුඩා අකුරක්</string>
+    <string name="pwd_rule_number">එක් ඉලක්කමක්</string>
+    <string name="pwd_rule_special">එක් විශේෂ අක්ෂරයක්</string>
+
+    <!-- Home -->
+    <string name="home_greeting_morning">සුභ උදෑසනක් ☀️</string>
+    <string name="home_greeting_afternoon">සුභ දහවලක්</string>
+    <string name="home_greeting_evening">සුභ සැන්දෑවක්</string>
+    <string name="home_search_hint">ළමා ෆැෂන් සොයන්න…</string>
+    <string name="home_flash_sale">⚡ ක්ෂණික විකුණුම</string>
+    <string name="home_flash_sale_subtitle">40% දක්වා වට්ටම්</string>
+    <string name="home_flash_sale_caption">අද පමණයි · ගැහැණු ළමා එකතුව</string>
+    <string name="home_view_all">සියල්ල බලන්න</string>
+    <string name="home_categories">ප්‍රවර්ග</string>
+    <string name="home_popular">ජනප්‍රිය නිෂ්පාදන</string>
+    <string name="home_new_arrivals">අලුත් පැමිණීම්</string>
+    <string name="home_recommended">ඔබට නිර්දේශිත</string>
+    <string name="home_free_shipping">නොමිලේ බෙදාහැරීම</string>
+    <string name="home_easy_returns">පහසු ආපසු දීම්</string>
+    <string name="home_secure_payment">ආරක්ෂිත ගෙවීම්</string>
+    <string name="home_best_quality">හොඳම ගුණත්වය</string>
+
+    <!-- Categories -->
+    <string name="cat_babies">බබාලා</string>
+    <string name="cat_girls">ගැහැණු</string>
+    <string name="cat_boys">පිරිමි</string>
+    <string name="cat_accessories">උපාංග</string>
+    <string name="categories_search_hint">ප්‍රවර්ග සොයන්න…</string>
+    <string name="categories_items_count">අයිතම %1$d</string>
+
+    <!-- Product -->
+    <string name="product_add_to_cart">කූඩයට එකතු කරන්න</string>
+    <string name="product_buy_now">දැන් මිලදී ගන්න</string>
+    <string name="product_size_guide">ප්‍රමාණ මාර්ගෝපදේශය</string>
+    <string name="product_ai_size_tip">AI ප්‍රමාණ ඉඟිය</string>
+    <string name="product_description">විස්තරය</string>
+    <string name="product_reviews">සමාලෝචන</string>
+    <string name="product_select_size">ප්‍රමාණය තෝරන්න</string>
+    <string name="product_select_color">වර්ණය තෝරන්න</string>
+
+    <!-- Cart & Checkout -->
+    <string name="cart_title">මගේ කූඩය</string>
+    <string name="cart_empty">ඔබේ කූඩය හිස්ය</string>
+    <string name="cart_promo_code">ප්‍රවර්ධන කේතය</string>
+    <string name="cart_apply">යොදන්න</string>
+    <string name="cart_subtotal">උප එකතුව</string>
+    <string name="cart_shipping">බෙදාහැරීම</string>
+    <string name="cart_total">මුළු එකතුව</string>
+    <string name="cart_checkout">ගෙවීමට ඉදිරියට යන්න</string>
+    <string name="checkout_address">බෙදාහැරීමේ ලිපිනය</string>
+    <string name="checkout_payment">ගෙවීමේ ක්‍රමය</string>
+    <string name="checkout_place_order">ඇණවුම දෙන්න</string>
+
+    <!-- Orders -->
+    <string name="orders_title">මගේ ඇණවුම්</string>
+    <string name="orders_all">සියල්ල</string>
+    <string name="orders_processing">සැකසෙමින්</string>
+    <string name="orders_shipped">යවා ඇත</string>
+    <string name="orders_delivered">බෙදා හරින ලදී</string>
+    <string name="orders_track">ඇණවුම නිරීක්ෂණය</string>
+    <string name="orders_confirm_delivery">බෙදාහැරීම තහවුරු කරන්න</string>
+    <string name="orders_report_problem">ගැටලුවක් වාර්තා කරන්න</string>
+    <string name="orders_write_review">සමාලෝචනයක් ලියන්න</string>
+
+    <!-- Seller flow -->
+    <string name="seller_start_selling">විකිණීම ආරම්භ කරන්න</string>
+    <string name="seller_intro_title">MIKO හි විකුණන්න</string>
+    <string name="seller_intro_subtitle">අමතර ආදායමක් ලබන ශ්‍රී ලාංකික විකුණුම්කරුවන් 200+ ට එක්වන්න</string>
+    <string name="seller_store_info">වෙළඳසැල් තොරතුරු</string>
+    <string name="seller_verification">ඔබව තහවුරු කරන්න</string>
+    <string name="seller_banking">බැංකු විස්තර</string>
+    <string name="seller_success">ඔබ දැන් විකුණුම්කරුවෙක්!</string>
+    <string name="seller_dashboard">විකුණුම් උපකරණ පුවරුව</string>
+    <string name="seller_my_products">මගේ නිෂ්පාදන</string>
+    <string name="seller_orders">ඇණවුම්</string>
+    <string name="seller_earnings">ඉපැයීම්</string>
+    <string name="seller_analytics">විශ්ලේෂණ</string>
+    <string name="seller_add_product">නව නිෂ්පාදනයක් එක් කරන්න</string>
+
+    <!-- Profile -->
+    <string name="profile_edit">පැතිකඩ සංස්කරණය</string>
+    <string name="profile_my_orders">මගේ ඇණවුම්</string>
+    <string name="profile_wishlist">ප්‍රියතම</string>
+    <string name="profile_addresses">සුරැකි ලිපින</string>
+    <string name="profile_payment_methods">ගෙවීමේ ක්‍රම</string>
+    <string name="profile_kids">දරුවන්ගේ පැතිකඩ</string>
+    <string name="profile_notifications">දැනුම්දීම්</string>
+    <string name="profile_language">භාෂාව</string>
+    <string name="profile_help">උදව් සහ සහාය</string>
+    <string name="profile_about">MIKO ගැන</string>
+    <string name="profile_logout">ඉවත් වන්න</string>
+
+    <!-- AI -->
+    <string name="ai_stylist_title">MIKO AI ස්ටයිලිස්ට්</string>
+    <string name="ai_stylist_subtitle">පුද්ගලීකරණය කළ ඇඳුම් නිර්දේශ ලබා ගන්න</string>
+    <string name="ai_outfit_generator">ඇඳුම් උත්පාදකය</string>
+    <string name="ai_sizing_engine">AI ප්‍රමාණකරණය</string>
+    <string name="ai_thinking">MIKO AI සිතමින්…</string>
+
+    <!-- Escrow -->
+    <string name="escrow_protected">ගැනුම්කරු ආරක්ෂාව සක්‍රියයි</string>
+    <string name="escrow_payment_secured">ගෙවීම සුරැකිතයි</string>
+    <string name="escrow_confirm_receipt">ලැබීම තහවුරු කර ගෙවීම නිදහස් කරන්න</string>
+    <string name="escrow_auto_release">දින %1$d පැය %2$d කින් විකුණුම්කරුට ස්වයංක්‍රීයව නිදහස් වේ</string>
+    <string name="escrow_photo_proof_required">ඡායාරූප සාක්ෂි අවශ්‍යයි</string>
+    <string name="escrow_under_review">ඔබේ වාර්තාව සමාලෝචනය වෙමින්</string>
+
+    <!-- Common actions -->
+    <string name="action_next">ඊළඟ</string>
+    <string name="action_back">ආපසු</string>
+    <string name="action_skip">මඟ හරින්න</string>
+    <string name="action_continue">ඉදිරියට</string>
+    <string name="action_get_started">ආරම්භ කරන්න</string>
+    <string name="action_login">ඇතුල් වන්න</string>
+    <string name="action_signup">ගිණුම සාදන්න</string>
+    <string name="action_save">සුරකින්න</string>
+    <string name="action_cancel">අවලංගු කරන්න</string>
+    <string name="action_done">නිම</string>
+    <string name="action_apply">යොදන්න</string>
+    <string name="action_clear">හිස් කරන්න</string>
+    <string name="action_retry">නැවත උත්සාහ</string>
+    <string name="action_send_reset">යළි සැකසීමේ සබැඳිය එවන්න</string>
+    <string name="action_search">සොයන්න</string>
+    <string name="action_filter">පෙරහන</string>
+    <string name="action_sort">වර්ග කරන්න</string>
+
+    <!-- Errors -->
+    <string name="error_generic">යමක් වැරදී ගියා. නැවත උත්සාහ කරන්න.</string>
+    <string name="error_no_internet">අන්තර්ජාල සම්බන්ධතාවක් නැත</string>
+    <string name="error_invalid_email">වලංගු ඊමේල් ලිපිනයක් ඇතුළු කරන්න</string>
+    <string name="error_password_too_short">මුරපදය අවම වශයෙන් අක්ෂර 8ක් විය යුතුය</string>
+    <string name="error_passwords_dont_match">මුරපද නොගැලපේ</string>
+    <string name="error_required_field">මෙම ක්ෂේත්‍රය අවශ්‍යයි</string>
+
+    <string name="ai_stylist">AI ස්ටයිලිස්ට්</string>
+    <string name="browse_categories">ප්‍රවර්ග බලන්න</string>
+    <string name="nav_explore">ගවේෂණය</string>
+
+</resources>

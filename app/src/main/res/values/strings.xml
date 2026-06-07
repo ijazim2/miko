@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ════════════════════════════════════════ -->
+    <!--   MIKO — Brand strings                   -->
+    <!-- ════════════════════════════════════════ -->
+
+    <string name="app_name">MIKO</string>
+    <string name="app_full_name">MIKO — Premium Kids Fashion</string>
+    <string name="app_description">Sri Lanka\'s premium kids fashion marketplace</string>
+    <string name="app_tagline">Be Cute, Be You.</string>
+    <!-- ════════════════════════════════════════ -->
+    <!--   Bottom Navigation                       -->
+    <!-- ════════════════════════════════════════ -->
+    <string name="nav_home">Home</string>
+    <string name="nav_wishlist">Wishlist</string>
+    <string name="nav_ai">AI</string>
+    <string name="nav_cart">Cart</string>
+    <string name="nav_profile">Profile</string>
+    <string name="nav_categories">Categories</string>
+
+    <!-- ════════════════════════════════════════ -->
+    <!--   Splash                                  -->
+    <!-- ════════════════════════════════════════ -->
+    <string name="splash_logo_description">MIKO logo</string>
+    <string name="splash_text_logo_description">MIKO wordmark</string>
+
+    <!-- ════════════════════════════════════════ -->
+    <!--   Onboarding (final spec text)            -->
+    <!-- ════════════════════════════════════════ -->
+    <string name="onboard_1_title">Discover &amp; Shop</string>
+    <string name="onboard_1_subtitle">Explore lovely collections made for your little ones</string>
+
+    <string name="onboard_2_title">AI Stylist</string>
+    <string name="onboard_2_subtitle">We know your child\'s size, style, and the Sri Lankan weather.</string>
+
+    <string name="onboard_3_title">Fast &amp; Safe Delivery</string>
+    <string name="onboard_3_subtitle">Island-wide delivery with real-time tracking.</string>
+
+    <!-- ════════════════════════════════════════ -->
+    <!--   Auth — Login                            -->
+    <!-- ════════════════════════════════════════ -->
+    <string name="auth_login_title">Welcome Back</string>
+    <string name="auth_login_subtitle">Sign in to continue shopping</string>
+    <string name="auth_create_account">Create Account</string>
+    <string name="auth_new_to_miko">New to MIKO?</string>
+    <string name="auth_already_have_account">Already have an account?</string>
+    <string name="auth_continue_google">Continue with Google</string>
+    <string name="auth_sign_in_google">Sign in with Google</string>
+    <string name="auth_forgot_password">Forgot Password?</string>
+    <string name="auth_forgot_title">Forgot Password?</string>
+    <string name="auth_forgot_description">Enter your registered email and we\'ll send you a reset link.</string>
+    <string name="auth_remember_password">Remember? Sign In</string>
+    <string name="auth_terms_checkbox">I agree to the Terms &amp; Conditions and Privacy Policy</string>
+
+    <!-- ════════════════════════════════════════ -->
+    <!--   Form fields                             -->
+    <!-- ════════════════════════════════════════ -->
+    <string name="field_full_name">Full Name</string>
+    <string name="field_email">Email Address</string>
+    <string name="field_email_or_phone">Email or Phone</string>
+    <string name="field_phone">Phone Number</string>
+    <string name="field_password">Password</string>
+    <string name="field_confirm_password">Confirm Password</string>
+
+    <!-- ════════════════════════════════════════ -->
+    <!--   Password rules                          -->
+    <!-- ════════════════════════════════════════ -->
+    <string name="pwd_rule_min">Minimum 8 characters</string>
+    <string name="pwd_rule_upper">One uppercase letter</string>
+    <string name="pwd_rule_lower">One lowercase letter</string>
+    <string name="pwd_rule_number">One number</string>
+    <string name="pwd_rule_special">One special character</string>
+
+    <!-- ════════════════════════════════════════ -->
+    <!--   Home                                    -->
+    <!-- ════════════════════════════════════════ -->
+    <string name="home_greeting_morning">Good Morning ☀️</string>
+    <string name="home_greeting_afternoon">Good Afternoon</string>
+    <string name="home_greeting_evening">Good Evening</string>
+    <string name="home_search_hint">Search kids fashion…</string>
+    <string name="home_flash_sale">⚡ FLASH SALE</string>
+    <string name="home_flash_sale_subtitle">Up to 40% OFF</string>
+    <string name="home_flash_sale_caption">Today only · Girls Collection</string>
+    <string name="home_view_all">View All</string>
+    <string name="home_categories">Categories</string>
+    <string name="home_popular">Popular Products</string>
+    <string name="home_new_arrivals">New Arrivals</string>
+    <string name="home_recommended">Recommended For You</string>
+    <string name="home_free_shipping">Free Shipping</string>
+    <string name="home_easy_returns">Easy Returns</string>
+    <string name="home_secure_payment">Secure Payment</string>
+    <string name="home_best_quality">Best Quality</string>
+
+    <!-- ════════════════════════════════════════ -->
+    <!--   Categories                              -->
+    <!-- ════════════════════════════════════════ -->
+    <string name="cat_babies">Babies</string>
+    <string name="cat_girls">Girls</string>
+    <string name="cat_boys">Boys</string>
+    <string name="cat_accessories">Accessories</string>
+    <string name="categories_search_hint">Search categories…</string>
+    <string name="categories_items_count">%1$d items</string>
+
+    <!-- ════════════════════════════════════════ -->
+    <!--   Product                                 -->
+    <!-- ════════════════════════════════════════ -->
+    <string name="product_add_to_cart">Add to Cart</string>
+    <string name="product_buy_now">Buy Now</string>
+    <string name="product_size_guide">Size Guide</string>
+    <string name="product_ai_size_tip">AI Size Tip</string>
+    <string name="product_description">Description</string>
+    <string name="product_reviews">Reviews</string>
+    <string name="product_select_size">Select Size</string>
+    <string name="product_select_color">Select Color</string>
+
+    <!-- ════════════════════════════════════════ -->
+    <!--   Cart & Checkout                         -->
+    <!-- ════════════════════════════════════════ -->
+    <string name="cart_title">My Cart</string>
+    <string name="cart_empty">Your cart is empty</string>
+    <string name="cart_promo_code">Promo Code</string>
+    <string name="cart_apply">Apply</string>
+    <string name="cart_subtotal">Subtotal</string>
+    <string name="cart_shipping">Shipping</string>
+    <string name="cart_total">Total</string>
+    <string name="cart_checkout">Proceed to Checkout</string>
+    <string name="checkout_address">Shipping Address</string>
+    <string name="checkout_payment">Payment Method</string>
+    <string name="checkout_place_order">Place Order</string>
+
+    <!-- ════════════════════════════════════════ -->
+    <!--   Orders                                  -->
+    <!-- ════════════════════════════════════════ -->
+    <string name="orders_title">My Orders</string>
+    <string name="orders_all">All</string>
+    <string name="orders_processing">Processing</string>
+    <string name="orders_shipped">Shipped</string>
+    <string name="orders_delivered">Delivered</string>
+    <string name="orders_track">Track Order</string>
+    <string name="orders_confirm_delivery">Confirm Delivery</string>
+    <string name="orders_report_problem">Report a Problem</string>
+    <string name="orders_write_review">Write Review</string>
+
+    <!-- ════════════════════════════════════════ -->
+    <!--   Seller flow                             -->
+    <!-- ════════════════════════════════════════ -->
+    <string name="seller_start_selling">Start Selling</string>
+    <string name="seller_intro_title">Sell on MIKO</string>
+    <string name="seller_intro_subtitle">Join 200+ Sri Lankan sellers earning extra income</string>
+    <string name="seller_store_info">Store Information</string>
+    <string name="seller_verification">Verify Yourself</string>
+    <string name="seller_banking">Banking Details</string>
+    <string name="seller_success">You\'re now a seller!</string>
+    <string name="seller_dashboard">Seller Dashboard</string>
+    <string name="seller_my_products">My Products</string>
+    <string name="seller_orders">Orders</string>
+    <string name="seller_earnings">Earnings</string>
+    <string name="seller_analytics">Analytics</string>
+    <string name="seller_add_product">Add New Product</string>
+
+    <!-- ════════════════════════════════════════ -->
+    <!--   Profile                                 -->
+    <!-- ════════════════════════════════════════ -->
+    <string name="profile_edit">Edit Profile</string>
+    <string name="profile_my_orders">My Orders</string>
+    <string name="profile_wishlist">Wishlist</string>
+    <string name="profile_addresses">Saved Addresses</string>
+    <string name="profile_payment_methods">Payment Methods</string>
+    <string name="profile_kids">Kids Profiles</string>
+    <string name="profile_notifications">Notifications</string>
+    <string name="profile_language">Language</string>
+    <string name="profile_help">Help &amp; Support</string>
+    <string name="profile_about">About MIKO</string>
+    <string name="profile_logout">Log Out</string>
+
+    <!-- ════════════════════════════════════════ -->
+    <!--   AI                                      -->
+    <!-- ════════════════════════════════════════ -->
+    <string name="ai_stylist_title">MIKO AI Stylist</string>
+    <string name="ai_stylist_subtitle">Get personalized outfit recommendations</string>
+    <string name="ai_outfit_generator">Outfit Generator</string>
+    <string name="ai_sizing_engine">AI Sizing</string>
+    <string name="ai_thinking">MIKO AI is thinking…</string>
+
+    <!-- ════════════════════════════════════════ -->
+    <!--   Escrow / Buyer Protection               -->
+    <!-- ════════════════════════════════════════ -->
+    <string name="escrow_protected">Buyer Protection Active</string>
+    <string name="escrow_payment_secured">Payment Secured</string>
+    <string name="escrow_confirm_receipt">Confirm Receipt &amp; Release Payment</string>
+    <string name="escrow_auto_release">Auto-releases to vendor in %1$dd %2$dh</string>
+    <string name="escrow_photo_proof_required">Photo Proof Required</string>
+    <string name="escrow_under_review">Your report is under review</string>
+
+    <!-- ════════════════════════════════════════ -->
+    <!--   Common actions                          -->
+    <!-- ════════════════════════════════════════ -->
+    <string name="action_next">Next</string>
+    <string name="action_back">Back</string>
+    <string name="action_skip">Skip</string>
+    <string name="action_continue">Continue</string>
+    <string name="action_get_started">Get Started</string>
+    <string name="action_login">Login</string>
+    <string name="action_signup">Sign Up</string>
+    <string name="action_save">Save</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_done">Done</string>
+    <string name="action_apply">Apply</string>
+    <string name="action_clear">Clear</string>
+    <string name="action_retry">Retry</string>
+    <string name="action_send_reset">Send Reset Link</string>
+    <string name="action_search">Search</string>
+    <string name="action_filter">Filter</string>
+    <string name="action_sort">Sort</string>
+
+    <!-- ════════════════════════════════════════ -->
+    <!--   Errors                                  -->
+    <!-- ════════════════════════════════════════ -->
+    <string name="error_generic">Something went wrong. Please try again.</string>
+    <string name="error_no_internet">No internet connection</string>
+    <string name="error_invalid_email">Please enter a valid email</string>
+    <string name="error_password_too_short">Password must be at least 8 characters</string>
+    <string name="error_passwords_dont_match">Passwords don\'t match</string>
+    <string name="error_required_field">This field is required</string>
+
+    <string name="ai_stylist">AI Stylist</string>
+    <string name="browse_categories">Browse Categories</string>
+    <string name="nav_explore">Explore</string>
+
+</resources>

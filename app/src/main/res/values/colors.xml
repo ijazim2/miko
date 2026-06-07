@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ════════════════════════════════════════ -->
+    <!--   MIKO — XML colors (final pink spec)    -->
+    <!-- ════════════════════════════════════════ -->
+
+    <!-- ─── PRIMARY GRADIENT (#FA5BD2 → #BE0A88) ─── -->
+    <color name="miko_primary">#FA5BD2</color>
+    <color name="miko_primary_start">#FA5BD2</color>
+    <color name="miko_primary_end">#BE0A88</color>
+    <color name="miko_primary_light">#FF8FE0</color>
+    <color name="miko_primary_dark">#BE0A88</color>
+
+    <!-- ─── ACCENT COLORS ─── -->
+    <color name="miko_accent_light">#F8A2E8</color>
+    <color name="miko_accent_bright">#C532EA</color>
+    <color name="miko_accent_soft">#FF6BCE</color>
+    <color name="miko_pink">#FF6BCE</color>
+
+    <!-- ─── BUTTON GRADIENT (#6C0853 → #FF6BCE) ─── -->
+    <color name="miko_button_start">#6C0853</color>
+    <color name="miko_button_end">#FF6BCE</color>
+
+    <!-- ─── BACKGROUNDS ─── -->
+    <color name="miko_white">#FFFFFF</color>
+    <color name="miko_background">#FFFFFF</color>
+    <color name="miko_surface">#FFFFFF</color>
+    <color name="miko_surface_variant">#FBF5FF</color>
+
+    <!-- ─── NEUMORPHISM SHADOWS ─── -->
+    <color name="miko_neu_light">#FFFFFF</color>
+    <color name="miko_neu_dark">#E8DFFF</color>
+
+    <!-- ─── TEXT ─── -->
+    <color name="miko_text_primary">#1A0E2E</color>
+    <color name="miko_text_secondary">#5A4870</color>
+    <color name="miko_text_muted">#9A8FAA</color>
+    <color name="miko_text_on_primary">#FFFFFF</color>
+
+    <!-- ─── STATUS COLORS ─── -->
+    <color name="miko_success">#22C58A</color>
+    <color name="miko_warning">#FFB020</color>
+    <color name="miko_error">#FF4D6D</color>
+    <color name="miko_info">#7B6BFF</color>
+
+    <!-- ─── SOFT PASTELS (kept for category tiles) ─── -->
+    <color name="miko_pastel_pink">#FFE5F4</color>
+    <color name="miko_pastel_lavender">#EFE5FF</color>
+    <color name="miko_pastel_sky">#E5EBFF</color>
+    <color name="miko_pastel_mint">#DFF7E8</color>
+    <color name="miko_pastel_butter">#FFF6D6</color>
+
+    <!-- ─── SYSTEM BAR TINTS ─── -->
+    <color name="status_bar">#FFFFFF</color>
+    <color name="nav_bar">#FFFFFF</color>
+
+    <!-- ════════════════════════════════════════ -->
+    <!--   LEGACY ALIASES                          -->
+    <!--   Old code/themes still reference these   -->
+    <!--   so we keep them as aliases.             -->
+    <!-- ════════════════════════════════════════ -->
+
+    <!-- Old neumorphism names -->
+    <color name="neu_surface">#FFFFFF</color>
+    <color name="neu_background">#FFFFFF</color>
+    <color name="neu_shadow_light">#FFFFFF</color>
+    <color name="neu_shadow_dark">#E8DFFF</color>
+
+    <!-- Old Kitty names -->
+    <color name="kittys_primary">#FA5BD2</color>
+    <color name="kittys_secondary">#FF6BCE</color>
+    <color name="kittys_background">#FFFFFF</color>
+    <color name="kittys_surface">#FFFFFF</color>
+
+</resources>

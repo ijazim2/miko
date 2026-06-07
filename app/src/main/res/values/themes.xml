@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ════════════════════════════════════════ -->
+    <!--   MIKO — App Theme                       -->
+    <!-- ════════════════════════════════════════ -->
+
+    <style name="Theme.Miko" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor">@color/miko_background</item>
+        <item name="android:navigationBarColor">@color/miko_surface</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="android:windowBackground">@color/miko_background</item>
+    </style>
+
+    <!-- Splash uses Android 12+ SplashScreen API -->
+    <style name="Theme.Miko.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/miko_background</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/miko_splash_logo</item>
+        <item name="postSplashScreenTheme">@style/Theme.Miko</item>
+    </style>
+
+    <!-- Backward-compat alias for existing AndroidManifest references -->
+    <style name="Theme.KittysPremium" parent="Theme.Miko"/>
+
+</resources>

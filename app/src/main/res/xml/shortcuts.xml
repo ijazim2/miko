@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="cart"
+        android:enabled="true"
+        android:icon="@drawable/ic_cart"
+        android:shortcutShortLabel="@string/nav_cart"
+        android:shortcutLongLabel="@string/nav_cart">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.kittys.premium"
+            android:targetClass="com.kittys.premium.MainActivity"
+            android:data="kittys://cart" />
+    </shortcut>
+    <shortcut
+        android:shortcutId="ai_stylist"
+        android:enabled="true"
+        android:icon="@drawable/ic_ai_sparkle"
+        android:shortcutShortLabel="@string/nav_ai"
+        android:shortcutLongLabel="@string/ai_stylist">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.kittys.premium"
+            android:targetClass="com.kittys.premium.MainActivity"
+            android:data="kittys://ai" />
+    </shortcut>
+    <shortcut
+        android:shortcutId="search"
+        android:enabled="true"
+        android:icon="@drawable/ic_logo"
+        android:shortcutShortLabel="@string/nav_explore"
+        android:shortcutLongLabel="@string/browse_categories">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.kittys.premium"
+            android:targetClass="com.kittys.premium.MainActivity"
+            android:data="kittys://search" />
+    </shortcut>
+</shortcuts>

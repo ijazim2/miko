@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ════════════════════════════════════════════════════
+     res/values-night/themes.xml
+     Dark mode overrides — save in res/values-night/ folder
+     ════════════════════════════════════════════════════ -->
+<resources>
+    <style name="Theme.KittysPremium"
+        parent="Theme.MaterialComponents.DayNight.NoActionBar">
+
+        <!-- Dark neumorphic background -->
+        <item name="colorPrimary">@color/blue_primary</item>
+        <item name="colorPrimaryVariant">@color/blue_secondary</item>
+        <item name="colorAccent">@color/aqua_accent</item>
+
+        <!-- Dark surface overrides -->
+        <item name="colorSurface">@color/neu_surface_dark</item>
+        <item name="android:windowBackground">@color/neu_bg_dark</item>
+
+        <!-- Keep status bar light icons on dark bg -->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@color/neu_surface_dark</item>
+        <item name="android:windowLightStatusBar">false</item>
+
+        <item name="android:fontFamily">@font/dm_sans_regular</item>
+    </style>
+</resources>
